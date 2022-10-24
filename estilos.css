@@ -34,6 +34,8 @@ body{
     background-color: yellow;
     height: 12px;
     border-style: none;
+    float: right;
+    margin-right: 50px;
 }
 
 /* body de index.html */
@@ -49,7 +51,8 @@ body{
     list-style-type: none;
     padding: 10px;
     background-color: blue;
-    width: 50vh;
+    width: 30%;
+    margin-bottom: 10px;
 }
 
 .deporte{
