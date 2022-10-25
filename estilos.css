@@ -17,7 +17,7 @@ body{
     text-shadow: 2px 2px black, -2px -2px black;
 }
 
-/* header de index.html */
+/* nav de index.html */
 .menu{
     padding: 15px;
     background-color: darkslategrey;
@@ -48,7 +48,6 @@ body{
 }
 
 .deportesLi{
-    list-style-type: none;
     padding: 10px;
     background-color: blue;
     width: 30%;
