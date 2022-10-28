@@ -40,20 +40,24 @@ body{
 
 /* body de index.html */
 
+/* Para agregar la imagen con el escudo del "equipo" en el fondo de pantalla del body */
 
 /* main de index.html */
-.deportesUl{
+.deportesOpciones{
     margin-top: 300px;
-    list-style-type: none;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(2, 50px);
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
-.deportesLi{
-    padding: 10px;
-    background-color: blue;
-    width: 30%;
-    margin-bottom: 10px;
-}
-
-.deporte{
-    display: inline;
+.vinieta{
+    background-color: aqua;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50%;
 }
