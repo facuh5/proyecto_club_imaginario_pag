@@ -67,3 +67,7 @@ body{
 .material-icons-outlined{
     color:white;
 }
+
+p{
+    font-size: 1.5em;
+}
