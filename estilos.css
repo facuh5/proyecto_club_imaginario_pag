@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgb(0, 0, 94);
+    background-color: #00005e;
+    /*background-image: url(./imagenes/logotipoFondoPantalla.png);*/
 }
 
 /* h1 de index.html */
@@ -20,7 +21,7 @@ body{
 /* nav de index.html */
 .menu{
     padding: 15px;
-    background-color: darkslategrey;
+    background-color: #2f4f4f;
     list-style-type: none;
 }
 
@@ -31,12 +32,15 @@ body{
 }
 
 #logotipoMenu{
-    background-color: yellow;
-    height: 12px;
     border-style: none;
     float: right;
     margin-right: 50px;
 }
+/*
+#logotipoIcono{
+    padding: 0px;
+    height: 50px;
+}*/
 
 /* body de index.html */
 
