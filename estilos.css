@@ -1,8 +1,10 @@
+/* se definen los colores comunes de nuestro sitio */
 :root{
     --colorFondo: #00005e;
     --colorMenu: #2f4f4f;
     --colorDeportes: rgb(0, 0, 27);
 }
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -34,24 +36,21 @@ body{
 
 .menuLi{
     display: inline;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
     margin-left: 25px;
+    /*padding: 25px;*/
 }
 
-#logotipoMenu{
-    border-style: none;
-    float: right;
-    margin-right: 50px;
+.enlaceMenu{
+    text-decoration: none;
+    color: black; /* no infiere en el color de 'vinieta' ya que ahí están especificadas que son de otro color */
+    padding: 16px;
 }
-/*
-#logotipoIcono{
-    padding: 0px;
-    height: 50px;
-}*/
 
-/* body de index.html */
-
-/* Para agregar la imagen con el escudo del "equipo" en el fondo de pantalla del body */
+.enlaceMenu:hover{
+    background-color: #4b6363;
+    opacity: 0.75;
+}
 
 /* main de index.html */
 .deportesOpciones{
@@ -84,11 +83,11 @@ p{
     font-size: 1.5em;
 }
 
-.enlace{
+.enlaceDeportes{
     text-decoration: none;
-    color: black; /* no infiere en el color de 'vinieta' ya que ahí están especificadas que son de otro color */
 }
 
+/* Animaciones sobre las 'vinieta's de los deportes */
 .vinieta:hover{
     background-color: var(--colorMenu);
 }
