@@ -1,3 +1,8 @@
+:root{
+    --colorFondo: #00005e;
+    --colorMenu: #2f4f4f;
+    --colorDeportes: rgb(0, 0, 27);
+}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -5,8 +10,10 @@
 }
 
 body{
-    background-color: #00005e;
-    /*background-image: url(./imagenes/logotipoFondoPantalla.png);*/
+    background-color: var(--colorFondo);
+    background-image: url(./imagenes/logotipoFondoPantalla.png);
+    background-repeat: no-repeat;
+    background-position: center 70%;
 }
 
 /* h1 de index.html */
@@ -21,7 +28,7 @@ body{
 /* nav de index.html */
 .menu{
     padding: 15px;
-    background-color: #2f4f4f;
+    background-color: var(--colorMenu);
     list-style-type: none;
 }
 
@@ -59,13 +66,14 @@ body{
 }
 
 .vinieta{
-    background-color: rgb(0, 0, 27);
+    background-color: var(--colorDeportes);
     color: aliceblue;
     opacity: 0.5;
     display:flex;
     align-items: center;
     justify-content: space-around;
     gap: 50%;
+    height: 50px;
 }
 
 .material-icons-outlined{
@@ -74,4 +82,17 @@ body{
 
 p{
     font-size: 1.5em;
+}
+
+.enlace{
+    text-decoration: none;
+    color: black; /* no infiere en el color de 'vinieta' ya que ahí están especificadas que son de otro color */
+}
+
+.vinieta:hover{
+    background-color: var(--colorMenu);
+}
+
+.vinieta:active{
+    color:black;
 }
