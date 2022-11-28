@@ -3,6 +3,7 @@
     --colorFondo: #00005e;
     --colorMenu: #2f4f4f;
     --colorDeportes: rgb(0, 0, 27);
+    --sombraMenu: #4b6363;
 }
 
 *{
@@ -48,7 +49,7 @@ body{
 }
 
 .enlaceMenu:hover{
-    background-color: #4b6363;
+    background-color: var(--sombraMenu);
     opacity: 0.75;
 }
 

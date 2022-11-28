@@ -1,0 +1,88 @@
+:root{
+    --colorFondo: #00005e;
+    --colorMenu: #2f4f4f;
+    --sombraMenu: #4b6363;
+    --separacion: 20px;
+}
+
+/* Estilos del body: */
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: var(--colorFondo);
+}
+
+/* Estilos del nav: */
+.menu{
+    padding: 15px;
+    background-color: var(--colorMenu);
+    list-style-type: none;
+}
+
+.menuLi{
+    display: inline;
+    margin-left: 25px;
+}
+
+/* Estilos del a href: */
+.enlaceMenu{
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+}
+
+.enlaceMenu:hover{
+    background-color: var(--sombraMenu);
+    opacity: 0.75;
+}
+
+/* Estilos del h1: */
+h1{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Estilos del main: */
+main{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--separacion);
+    margin-bottom: var(--separacion);
+}
+
+/* Estilos de las secciones: */
+section{
+    background-color: aliceblue;
+    opacity: 0.5;
+    width: 85%;
+    padding: 15px;
+}
+
+/* Estilos dentro de las secciones: */
+h2{
+    color: black;
+    margin-bottom: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+.pClases{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.subDiv{
+    margin-top: 10px;
+}
+
+#pFin{
+    margin-top: 5px;
+}
