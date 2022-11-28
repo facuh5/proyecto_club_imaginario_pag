@@ -73,3 +73,10 @@ nav{
     color: aliceblue;
     font-size: 1.5em;
 }
+
+/* Estilos del formulario de contacto: */
+
+label{
+    display: block;
+    padding: 10px;
+}
