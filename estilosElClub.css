@@ -10,6 +10,10 @@
     margin: 0px;
 }
 
+.margenInf5{
+    margin-bottom: 5px;
+}
+
 body{
     background-color: var(--colorFondo);
 }
@@ -44,51 +48,28 @@ nav{
     opacity: 0.75;
 }
 
-/* Estilos del h1: */
-h1{
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 3em;
-}
+/* Estilos del section: sobre nosotros */
 
-/* Estilos del main: */
-main{    
+#nos{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: var(--separacion);
-    margin-bottom: var(--separacion);
+    padding: 20px;
 }
 
-/* Estilos de las secciones: */
-section{
+#historia{
+    width: 60%;
+    text-align: justify;
     background-color: aliceblue;
     opacity: 0.5;
-    width: 85%;
-    padding: 15px;
+    padding: var(--separacion);
 }
 
-/* Estilos dentro de las secciones: */
-h2{
-    color: black;
-    margin-bottom: 5px;
+#mapa{
+    justify-self: center;
 }
 
-p{
-    text-align: justify;
-}
-
-.pClases{
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 5px;
-}
-
-.subDiv{
-    margin-top: 10px;
-}
-
-#pFin{
-    margin-top: 5px;
+#ubiClub{
+    color: aliceblue;
+    font-size: 1.5em;
 }
