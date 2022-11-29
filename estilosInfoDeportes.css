@@ -19,6 +19,7 @@ body{
 nav{
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .menu{
@@ -92,3 +93,19 @@ p{
 #pFin{
     margin-top: 5px;
 }
+
+.linkFormulario{
+    text-decoration: underline;
+    color: var(--colorFondo);
+}
+
+.linkFormulario:hover{
+    font-weight: bold;
+}
+
+.linkFormulario:active{
+    color: aliceblue;
+    font-weight: bold;
+    background-color: var(--colorMenu);
+}
+

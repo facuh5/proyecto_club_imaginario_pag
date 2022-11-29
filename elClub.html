@@ -30,27 +30,80 @@
         </div>
     </section>
     
-    <form action="">
-        <h1>Formulario de contacto:</h1>
-        <label for="nombre">
-            Nombre: <input type="text" required>
-        </label>
-        <label for="email">
-            email: <input type="email" required>
-        </label>
-        <label for="motConsulta">
-            Motivo por el que consulta: 
-            <select name="" id="" required>
-                <option value="Básquet">Básquet</option>
-                <option value="Fútbol">Fútbol</option>
-                <option value="Voley">Voley</option>
-                <option value="Pileta">Pileta</option>
-                <option value="Otro">Otro</option>
-            </select>
-        </label>
-        <label for="consulta">
-            Consulta: <input type="text" name="" id="" maxlength="100" required>
-        </label>
-    </form>
+    <section id="instalaciones">
+        <div id="contenedorInstalaciones">
+            <h1 class="margenInf5">Nuestras instalaciones</h1>
+            <p>En nuestro club contamos con las siguientes instalaciones:</p>
+            <ul>
+                <li>Gimnasio</li>
+                <li>Sector de parrilleros</li>
+                <li>Pileta climatizada</li>
+                <li>Bar/comedor</li>
+                <li>Estadio de básquet</li>
+                <li>Cancha de fútbol 11</li>
+                <li>Quincho "el quinchito"</li>
+                <li>Baños y vestuarios</li>
+            </ul>
+            <div>
+                <p class="pClases">El gimnasio:</p>
+                <p>Cuenta con un espacio techado grande, con muchas maquinarias para ejercitarse (cintas de correr, bicicletas fijas, racks de sentadillas, bancos de pecho, máquinas de glúteos, de cuádriceps, de hombro, espalda, etc), una numerosa cantidad de barras olímpicas (de 20kg cada una), mancuernas, discos, pesas rusas y demás; es decir, todo lo necesario para que nuestros socios puedan ejercitarse de la mejor manera posible.</p>
+                <p>Este gimnasio fue hecho para que todo aquel que es socio y quiera comenzarlo pueda hacerlo, teniendo que pagar un mínimo monto adicional al de su cuota de socio.</p>
+            </div>
+            <div>
+                <p class="pClases">El sector de parrilleros:</p>
+                <p>Es un espacio grande que se encuentra en el centro del club, como si fuera un patio gigantezco en el cual se cuenta con varios parrilleros uno al lado del otro, canillas de agua y una numerosa cantidad de mesas y bancos para que los miembros de la familia de Extensión F.C puedan disfrutar del espacio y momentos los unos con los otros
+                </p>
+            </div>
+            <div>
+                <p class="pClases">La Pileta climatizada:</p>
+                <p>La pileta que tenemos en el club es una pileta olímpica donde se practica tanto natación como natación recreativa, aprovechada principalmente por los mencionados al principio durante el transcurso del año y por los últimos mencionados cuando finaliza el ciclo lectivo escolar y comienzan las vacaciones de verano.</p>
+                <p>Para poder sacarle un mayor provecho a este sector del club, se le colocó un bar en la entrada para que quienes estén en la pileta y quieran algo para tomar o comer no deban alejarse tatno de donde estan, y que también la puedan aprovechar quienes practican en "el quinchito" debido a la proximidad que hay entre ambos sectores.</p>
+            </div>
+            <div>
+                <p class="pClases">El bar/comedor:</p>
+                <p>Es un espacio que cuenta con varias mesas y sillas para que quienes lo deseen puedan quedarse a disfrutar los platos que se preparan en la cocina y/o simplemente de reunirse con amigos con algo bien fresco para tomar. Además, para mejorar esta experiencia, se cuenta con ambiente climatizado gracias al aire acondicionado que uno de nuestros socios donó!.</p>
+            </div>
+            <div>
+                <p class="pClases">El estadio de básquet:</p>
+                <p>Este estadio llamado "Juanpe Gómez", en honor al primer presidente del club y quién lo construyó a dicho estadio, posee el piso de parquét necesario para practicar básquet, vestuario local y visitante, donde los jugadores pueden cambiarse y bañarse luego de entrenar o jugar los partidos. También hay dos tribuna con capacidad para 125 personas cada una, es decir 250 en total, y un buffet para que estas mismas puedan comprar cosas para consumir mientras ven el partido o incluso puedan aprovechar los jugadores del club fuera del tiempo de entrenamiento y partdio.</p>
+            </div>
+            <div>
+                <p class="pClases">La cancha de fútbol 11:</p>
+                <p>Esta cancha posee los arcos oficiales que se utilizan en el torneo para competir, bancos de supletentes con respaldar super cómodos, vestuarios equipados para que los jugadores puedan dejar sus pertencias y bañarse luego de los entrenos y partidos, y tribunas amplias para que quienes lo deseen puedan acompañar a las distintas cateorías que tenemos en el club.</p>
+            </div>
+            <div>
+                <p class="pClases">El quinchito:</p>
+                <p>Este espacio que en un comienzo era un quincho más, un lugar cerrado cercano a la zona de parrilleros para que si llegaba a llover nuestros queridos socios tengan un lugar donde poder quedarse, sin embargo, con el correr de los años y del crecimiento del club, ese quincho fue remodelado a lo que hoy en día conocemos como "el quinchito", lugar donde practican nuestros chicos de futsal y de voley. Por eso mismo, es que se ha invertido tanto en dejarlo en las mejores condiciones y adaptable tanto a los partidos de una disciplina como de la otra, teniendo las líneas de ambas canchas pintadas en el piso con colores diferentes, pudiendo poner y sacar los arcos según sean necesarios y lo mismo con la red de voley. Además que se arreglaron los baños haciendo un gran vestuario que cuenta con duchas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <form action="https://formspree.io/f/maykzgpb" method="post" id="contactenos">
+            <h1 id="tForm">Formulario de contacto:</h1>
+            <label for="nombre">
+                Nombre: <input type="text" id="nombre" name="Nombre:" required placeholder="Juan Pérez" class="paraEscribir">
+            </label>
+            <label for="email">
+                Email: <input type="email" id="email" name="Email: " required placeholder="jperez@gmail.com" class="paraEscribir">
+            </label>
+            <label for="motConsulta">
+                Motivo por el que consulta: 
+                <select name="Disciplina por la que consulto: " id="motConsulta" class="selector paraEscribir" required>
+                    <option selected disabled>Seleccionar...</option>
+                    <option value="Básquet">Básquet</option>
+                    <option value="Fútbol">Fútbol</option>
+                    <option value="Voley">Voley</option>
+                    <option value="Pileta">Pileta</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </label>
+            <label for="consulta">
+                Ingrese su consulta: <!--<input type="text" name="Consulta: " id="consulta" maxlength="100" required placeholder="(100 caracteres)">       <-->
+            </label>
+            <textarea name="Consulta: " id="consulta" cols="30" rows="10" class="paraEscribir" placeholder="Máximo 100 caracteres"></textarea>
+            <input type="submit" value="Enviar consulta" class="selector" id="boton">
+        </form>
+    </section>
 </body>
 </html>

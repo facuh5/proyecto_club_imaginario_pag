@@ -3,6 +3,8 @@
     --colorMenu: #2f4f4f;
     --sombraMenu: #4b6363;
     --separacion: 20px;
+    --colorFondoForm: rgb(0, 0, 27);
+    --colorFondoClaro: aliceblue;
 }
 
 /* Estilos del body: */
@@ -23,6 +25,7 @@ body{
 nav{
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .menu{
@@ -55,14 +58,16 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    gap: 20px;
 }
 
 #historia{
     width: 60%;
     text-align: justify;
-    background-color: aliceblue;
+    background-color: var(--colorFondoClaro);
     opacity: 0.5;
     padding: var(--separacion);
+    z-index: 0;
 }
 
 #mapa{
@@ -70,13 +75,82 @@ nav{
 }
 
 #ubiClub{
-    color: aliceblue;
+    color: var(--colorFondoClaro);
     font-size: 1.5em;
+}
+
+/* Estilos de las instalaciones: */
+
+#instalaciones{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    opacity: 0.5;
+}
+
+#contenedorInstalaciones{
+    background-color: var(--colorFondoClaro);
+    width: 100%;
+    padding: 15px;
+}
+
+.pClases{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 /* Estilos del formulario de contacto: */
 
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: var(--colorFondoForm);
+    color: var(--colorFondoClaro);
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 40px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#tForm{
+    text-align: center;
+}
+
 label{
     display: block;
     padding: 10px;
+}
+
+input{
+    height: 20px;
+}
+
+textarea{
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+select{
+    border-radius: 20px;
+}
+
+.selector:hover{
+    cursor: pointer;
+}
+
+.paraEscribir:focus{
+    background-color: var(--colorMenu);
+}
+
+#boton:hover{
+    background-color: var(--sombraMenu);
 }
