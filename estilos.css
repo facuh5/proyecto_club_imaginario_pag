@@ -37,14 +37,12 @@ body{
 
 .menuLi{
     display: inline;
-    /*margin-right: 25px;*/
     margin-left: 25px;
-    /*padding: 25px;*/
 }
 
-.enlaceMenu{
+.enlaceMenu{ /* Clase que manipula todo lo relacionado a los a href del .menu */
     text-decoration: none;
-    color: black; /* no infiere en el color de 'vinieta' ya que ahí están especificadas que son de otro color */
+    color: black;
     padding: 16px;
 }
 
@@ -65,7 +63,7 @@ body{
     align-items: stretch;
 }
 
-.vinieta{
+.vinieta{ /* Clase que se refiere a los div que contiene a los deportes */
     background-color: var(--colorDeportes);
     color: aliceblue;
     opacity: 0.5;
@@ -76,7 +74,15 @@ body{
     height: 50px;
 }
 
-.material-icons-outlined{
+.vinieta:hover{
+    background-color: var(--colorMenu);
+}
+
+.vinieta:active{
+    color:black;
+}
+
+.material-icons-outlined{ /* Clase para modificar los iconos importados */
     color:white;
 }
 
@@ -84,15 +90,6 @@ p{
     font-size: 1.5em;
 }
 
-.enlaceDeportes{
+.enlaceDeportes{ /* Clase que manipula todo lo relacionado a los a href del main */
     text-decoration: none;
-}
-
-/* Animaciones sobre las 'vinieta's de los deportes */
-.vinieta:hover{
-    background-color: var(--colorMenu);
-}
-
-.vinieta:active{
-    color:black;
 }

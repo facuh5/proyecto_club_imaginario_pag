@@ -74,7 +74,7 @@ nav{
     justify-self: center;
 }
 
-#ubiClub{
+#ubiClub{ /* id para identificar al p que hace de "título" */
     color: var(--colorFondoClaro);
     font-size: 1.5em;
 }
@@ -88,13 +88,13 @@ nav{
     opacity: 0.5;
 }
 
-#contenedorInstalaciones{
+#divInstalaciones{
     background-color: var(--colorFondoClaro);
     width: 100%;
     padding: 15px;
 }
 
-.pClases{
+.pClases{ /* clase aplicada a los "títulos" que se encontraban escritos dentro de un p */
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 5px;
@@ -120,9 +120,9 @@ form{
     align-items: left;
 }
 
-#tForm{
+#tForm{ /* es el título del formulario */
     text-align: center;
-}
+}  
 
 label{
     display: block;
@@ -143,14 +143,14 @@ select{
     border-radius: 20px;
 }
 
-.selector:hover{
+.selector:hover{  /* clase para que el mouse se convierte en pointer al estar sobre ella */
     cursor: pointer;
 }
 
-.paraEscribir:focus{
+.paraEscribir:focus{ /* clase que afecta a todos los input sobre los que se puede escribir */
     background-color: var(--colorMenu);
 }
 
-#boton:hover{
+#boton:hover{ /* id para el input -> submit */
     background-color: var(--sombraMenu);
 }

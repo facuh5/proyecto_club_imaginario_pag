@@ -8,7 +8,7 @@
     <title>Extensión F.C - el club</title>
 </head>
 <body>
-    <nav>
+    <nav> <!-- Barra de navegación, común de todos mis html -->
         <ul class="menu">
             <li class="menuLi"><a href="./index.html" class="enlaceMenu">Inicio</a></li>
             <li class="menuLi"><a href="./infoDeportes.html" class="enlaceMenu">Deportes</a></li>
@@ -24,14 +24,14 @@
             <p>Así, con mucho esfuerzo y sacrificio de sus diversos presidentes y socios, el club fue tomando la forma que tiene hoy en día y de la cual todos los miembros de la familia del Extensión F.C pueden disfrutar, manteniendo algunas tradiciones iniciales como la del asado previo a los encuentros importantes de básquet o el sentido de pertenencia que estos colores logran difundir entre su gente.</p>
             <p>Actualmente el club cuenta con el sector de parrilleros, un gimnasio, 'el quinchito' (lugar done se practica voley y futsal), el estadio de básquet, la cancha de fútbol y el sector de la pileta que toda la familia del club disfruta.</p>
         </div>
-        <div id="mapa">
+        <div id="mapa"> <!-- Se inserta mapa de google maps -->
             <p id="ubiClub" class="margenInf5">Ubicación del club:</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1407.469516709193!2d-60.66482166728761!3d-32.96300636667115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab7a422dfdc3%3A0xb2126f2a20c7ba44!2sClub%20Atl%C3%A9tico%20Provincial!5e0!3m2!1ses!2sar!4v1669619255725!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     
     <section id="instalaciones">
-        <div id="contenedorInstalaciones">
+        <div id="divInstalaciones">
             <h1 class="margenInf5">Nuestras instalaciones</h1>
             <p>En nuestro club contamos con las siguientes instalaciones:</p>
             <ul>
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section id="formulario">
+    <section id="formulario"> <!-- Formulario de contacto -->
         <form action="https://formspree.io/f/maykzgpb" method="post" id="contactenos">
             <h1 id="tForm">Formulario de contacto:</h1>
             <label for="nombre">
@@ -98,9 +98,7 @@
                     <option value="Otro">Otro</option>
                 </select>
             </label>
-            <label for="consulta">
-                Ingrese su consulta: <!--<input type="text" name="Consulta: " id="consulta" maxlength="100" required placeholder="(100 caracteres)">       <-->
-            </label>
+            <label for="consulta">Ingrese su consulta:</label>
             <textarea name="Consulta: " id="consulta" cols="30" rows="10" class="paraEscribir" placeholder="Máximo 100 caracteres"></textarea>
             <input type="submit" value="Enviar consulta" class="selector" id="boton">
         </form>

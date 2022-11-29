@@ -80,21 +80,21 @@ p{
     text-align: justify;
 }
 
-.pClases{
+.pClases{ /* clase aplicada a los "títulos" que se encontraban escritos dentro de un p */
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 5px;
 }
 
-.subDiv{
+.subDiv{ /* clase diseñada para los div que se encontraban en los deportes con varias disciplinas */
     margin-top: 10px;
 }
 
-#pFin{
+.pFin{  /* clase diseñada para los p que se encontraban al final de los deportes con varias disciplinas */
     margin-top: 5px;
 }
 
-.linkFormulario{
+.linkFormulario{ /* clase que hace referencia a los a href para redirigir al formulario de contacto */
     text-decoration: underline;
     color: var(--colorFondo);
 }
